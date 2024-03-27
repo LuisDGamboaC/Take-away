@@ -18,8 +18,8 @@ export default function Stats({ items }) {
           : `You have ${numItems} items on your list, and you already pack
         ${numPacked} (${percentage}%)`}
       </em>
-      <em>
-        My <a href="https://github.com/LuisDGamboaC/Take-away">GitHub</a>
+      <em className="github">
+         <a href="https://github.com/LuisDGamboaC/Take-away">My GitHub</a>
       </em>
     </footer>
   );
